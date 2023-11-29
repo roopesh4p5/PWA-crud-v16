@@ -1,0 +1,38 @@
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* Text color for the brand */
+    text-decoration: none; /* Remove underline from the brand */
+    font-size: 1.5rem; /* Adjust font size as needed */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Adjust margin between nav items as needed */
+  }
+  
+  .nav-link {
+    color: #ffffff; /* Text color for the nav links */
+    text-decoration: none; /* Remove underline from the links */
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+  
+  /* Container Styles */
+  .container {
+    margin-top: 30px; /* Adjust top margin as needed */
+  }
+  

@@ -1,0 +1,58 @@
+.submit-form {
+  max-width: 400px;
+  margin: auto;
+}
+/* Container Styles */
+.submit-form {
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 8px; /* Border radius */
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 15px; /* Adjust margin between form groups as needed */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Adjust margin between label and input as needed */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Border radius */
+}
+
+/* Button Styles */
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1rem; /* Adjust font size as needed */
+  border: none;
+  border-radius: 4px; /* Border radius */
+  cursor: pointer;
+}
+
+/* Primary Button Styles */
+.btn-success {
+  color: #fff;
+  background-color: #28a745; /* Success button color */
+}
+
+/* Secondary Button Styles */
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d; /* Secondary button color */
+}
+
+/* Hide submitted message initially */
+.submit-form > div:not(:first-child) {
+  display: none;
+}

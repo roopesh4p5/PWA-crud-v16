@@ -1,0 +1,82 @@
+.edit-form {
+  max-width: 400px;
+  margin: auto;
+}
+/* View Mode Styles */
+[viewMode] {
+  display: block;
+}
+
+[viewMode] > div:not(:first-child) {
+  display: none;
+}
+
+/* Edit Form Styles */
+.edit-form {
+  max-width: 400px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 8px; /* Border radius */
+}
+
+/* Form Styles */
+form {
+  margin-bottom: 20px; /* Adjust margin between form groups as needed */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Adjust margin between form groups as needed */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Adjust margin between label and input as needed */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Border radius */
+}
+
+/* Button Styles */
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1rem; /* Adjust font size as needed */
+  border: none;
+  border-radius: 4px; /* Border radius */
+  cursor: pointer;
+  margin-right: 10px; /* Adjust margin between buttons as needed */
+}
+
+/* Primary Button Styles */
+.badge-primary {
+  color: #fff;
+  background-color: #007bff; /* Primary button color */
+}
+
+/* Secondary Button Styles */
+.badge-warning {
+  color: #212529;
+  background-color: #ffc107; /* Warning button color */
+}
+
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545; /* Danger button color */
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #28a745; /* Success button color */
+}
+
+/* Text Styles */
+p {
+  margin-top: 10px; /* Adjust margin-top for paragraphs as needed */
+}

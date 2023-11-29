@@ -1,0 +1,86 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}/* List Styles */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-8 {
+  flex-basis: calc(66.6667% - 20px); /* Adjust width as needed */
+  margin-right: 20px; /* Adjust margin between columns as needed */
+}
+
+.col-md-6 {
+  flex-basis: calc(33.3333% - 20px); /* Adjust width as needed */
+  margin-bottom: 20px; /* Adjust margin between columns as needed */
+}
+
+/* Input Group Styles */
+.input-group {
+  width: 100%;
+  margin-bottom: 20px; /* Adjust margin between input group and other elements as needed */
+}
+
+.form-control {
+  width: 70%; /* Adjust width as needed */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.input-group-append {
+  width: 30%; /* Adjust width as needed */
+}
+
+.btn-outline-secondary {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Tutorials List Styles */
+h4 {
+  margin-bottom: 15px; /* Adjust margin below heading as needed */
+}
+
+.list-group {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+.list-group-item {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 4px; /* Border radius */
+  margin-bottom: 10px; /* Adjust margin between list items as needed */
+}
+
+.list-group-item.active {
+  background-color: #007bff; /* Active item background color */
+  color: #fff; /* Active item text color */
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1rem; /* Adjust font size as needed */
+  border: none;
+  border-radius: 4px; /* Border radius */
+  cursor: pointer;
+  margin-right: 10px; /* Adjust margin between buttons as needed */
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545; /* Danger button color */
+}
+
+/* Tutorial Details Styles */
+app-tutorial-details {
+  width: 100%;
+}

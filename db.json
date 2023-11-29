@@ -1,0 +1,36 @@
+{
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "Angular Basics",
+      "description": "Introduction to Angular framework."
+    },
+    {
+      "id": 2,
+      "title": "React Fundamentals",
+      "description": "Getting started with React library."
+    },
+    {
+      "id": 3,
+      "title": "Vue.js Essentials",
+      "description": "Understanding the Vue.js framework."
+    },
+    {
+      "title": "hello",
+      "description": "this ais a demo",
+      "published": true,
+      "id": 4
+    },
+    {
+      "title": "here we go",
+      "description": "trying to add",
+      "id": 5
+    },
+    {
+      "title": "farhan",
+      "description": "coleugue",
+      "published": true,
+      "id": 6
+    }
+  ]
+}
